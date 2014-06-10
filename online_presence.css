@@ -1,0 +1,57 @@
+h1{
+	font-family: 'Balthazar';
+	text-size: 28px;
+}
+h2{
+	font-family: 'Balthazar';
+	text-size: 28px;
+}
+h3{
+	font-family: 'Thabit';
+	text-size: 27px; 
+}
+
+span{
+	display: inline-block;
+}
+ul li {
+	display: block;
+	position: relative;
+	//width: 300px;
+	//clear: both;
+	//border: 1px dashed black;
+	padding: 21px;
+	}
+ul li span {
+	font-family: 'Thabit';
+	font-size: 19px;
+	border: 1px dashed green;
+	position: absolute;
+	top: 15px;
+}
+ul li span:last-of-type {
+	right: 15px;
+	}
+
+.single_list li:before {
+    content: url('img/CHECK_ICONsm.png');
+	//border: 1px dashed orange;
+	//position: absolute;
+	
+	//float: right;	
+	//margin-top: -14px;
+    //*X Mark*//
+}
+.double_list li ul li:before {
+    content: url('img/CHECK_ICONsm.png');
+	//border: 1px dashed orange;
+	height: 100%;
+	float: left;	
+	margin-top: -14px;
+    //*X Mark*//
+}
+/*
+ul li:after {
+    content: url('http://i.imgur.com/22GzEcl.png');
+    //*Check Mark*//
+}*/
